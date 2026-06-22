@@ -1,12 +1,20 @@
-body {
-    
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
 }
 
-.card {
+body {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+
+.business-card {
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
     padding: 20px;
+    border: 2px solid #5F9EA0;
 
 }
 
@@ -21,4 +29,55 @@ img {
 
 h1, h2, p {
     text-align: center;
+}
+
+h1 {
+    color: #B8B8FF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.portfolio-link {
+    color: #808080;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.connect {
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+}
+
+.social {
+    display: inline-block;
+    width: 15%;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.social a {
+    color: red;
+}
+
+.social a:hover {
+    color: blue;;
+}
+
+.social a:visited {
+    color: #5F9EA0;
 }
